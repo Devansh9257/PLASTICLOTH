@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+}
+td {
+    text-align:left;
+    font-family: biography;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+@font-face {
+  font-family:'bolgen';
+  src:url(BolgenSketch-9Y9Ln/BolgenSketch-9Y9Ln.ttf);
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 72px;
+}
+
+@font-face {
+  font-family:'balivia';
+  src:url(BaliviaFreeBold-BW548/BaliviaFreeBold-BW548.ttf);
+  font-style: oblique;
+  font-weight: 10;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family:'biography';
+  src:url(biography-font/BiographyRegular-axV6g.otf);
+  font-style: oblique;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: bolgen;
+  font-weight: 300;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: bolgen;
+  font-weight: 200;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: bolgen;
+  font-weight: 200;
+  font-size: 36px
+}
+
+
+table {
+  border-collapse: collapse;
+  font-family: balivia;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+p {
+  font-family: biography;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+ul {
+  font-family: biography;
+  font-weight: 200;
+  font-size: 24px;
+  align-content: left;
+}
+
+button {
+  font-family: biography;
+  font-weight: 200;
+  font-size: 24px;
+  background-color: White;
+}
+
+button:hover {
+  background-color: #00f2ff;
+}
+
+background {
+  height:"100%";
+  width: "100%";
+}
